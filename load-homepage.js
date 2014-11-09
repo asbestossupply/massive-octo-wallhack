@@ -1,3 +1,5 @@
+// @barge
+
 var page = require('webpage').create();
 
 page.onInitialized = function() {
