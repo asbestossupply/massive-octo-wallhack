@@ -16,4 +16,4 @@ page.onCallback = function(data) {
   phantom.exit(0);
 };
 
-page.open('https://www.bargeapp.com');
+page.open('http://www.google.com');
