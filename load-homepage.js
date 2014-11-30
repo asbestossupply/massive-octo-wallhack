@@ -1,4 +1,4 @@
-// @barge
+// @barge suite:"Homepage"
 
 var page = require('webpage').create();
 
@@ -16,4 +16,4 @@ page.onCallback = function(data) {
   phantom.exit(0);
 };
 
-page.open('http://www.google.com');
+page.open('http://www.bargeapp.com');
