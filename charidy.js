@@ -1,5 +1,6 @@
 // @barge suite="charidy" framework="casperjs_test" args="--ignore-ssl-errors=true --ssl-protocol=any"
 
+
 var test_id = Math.random() * 100000000000000000;
 casper.test.begin("charidy.com", 3, function(test) {
   var __utils__ = require('clientutils').create();
