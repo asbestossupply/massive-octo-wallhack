@@ -6,7 +6,8 @@
 // Variables for access test
     var email = 'guilherme@getcleanio.com';
     var password = 'password';
-    var url = 'http://178.62.204.238';
+    //var url = 'http://178.62.204.238';
+    var url = 'http://www.bargeapp.com'
     var name = Math.floor(Math.random() * 10000);
 
 // setting the options for our run
